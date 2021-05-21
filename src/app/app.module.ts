@@ -19,13 +19,13 @@ import { MatExpansionModule } from '@angular/material/expansion';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
 import { MatDialogModule } from '@angular/material/dialog';
 
-import { ArtiklComponent } from './components/artikl/artikl.component';
 import { DobavljacComponent } from './components/dobavljac/dobavljac.component';
 import { PorudzbinaComponent } from './components/porudzbina/porudzbina.component';
 import { StavkaPorudzbineComponent } from './components/stavka-porudzbine/stavka-porudzbine.component';
 import { FormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
+import { ArtiklComponent } from './components/artikl/artikl.component';
 
 @NgModule({
   declarations: [
