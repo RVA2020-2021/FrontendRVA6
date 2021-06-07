@@ -1,3 +1,5 @@
+import { PorudzbinaDialogComponent } from './components/dialogs/porudzbina-dialog/porudzbina-dialog.component';
+import { StavkaPorudzbineDialogComponent } from './components/dialogs/stavka-porudzbine-dialog/stavka-porudzbine-dialog.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
@@ -46,7 +48,9 @@ import { DobavljacDialogComponent } from './components/dialogs/dobavljac-dialog/
     PorudzbinaComponent,
     StavkaPorudzbineComponent,
     ArtiklDialogComponent,
-    DobavljacDialogComponent
+    DobavljacDialogComponent,
+    StavkaPorudzbineDialogComponent,
+    PorudzbinaDialogComponent
   ],
   imports: [
     BrowserModule,
